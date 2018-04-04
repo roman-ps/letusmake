@@ -1,0 +1,15 @@
+.title {
+  font-family: $gotham;
+  font-size: 30px;
+  line-height: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  
+  &::after {
+    @include pseudo;
+    background-color: #303030;
+    height: 3px;
+    bottom: 0;
+  }
+}
