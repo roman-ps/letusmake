@@ -1,3 +1,21 @@
 .footer {
-  
+  padding: 28px 0 22px;
+  background-color: #4f4f4f;
+  font-family: $proxima;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__adress {
+  color: #949494;
+}
+
+.footer__adress-inner,
+.footer__copyright {
+  color: #6e6e6e;
 }
