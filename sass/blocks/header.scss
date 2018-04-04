@@ -1,3 +1,42 @@
 .header {
-  
+}
+
+.header .wrapper {
+  min-height: 102px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: block;
+  width: 73px;
+  height: 19px;
+  font-size: 0;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+}
+.header__menu {
+  padding-left: 0;
+  font-size: 0;
+  list-style: none;
+}
+
+.header__menu-item {
+  display: inline-block;
+  margin-left: 100px;
+}
+
+.header__menu-item:first-child {
+  margin-left: 0;
+}
+
+.header__menu-link {
+  font-family: $gotham;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 50px;
+  color: #a7a7a7;
+  text-decoration: none;
+  text-transform: uppercase;
 }
