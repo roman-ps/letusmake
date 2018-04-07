@@ -1,0 +1,35 @@
+.form__message {
+  width: 540px;
+  min-height: 235px;
+  box-sizing: border-box;
+  padding: 28px 29px;
+  margin-bottom: 25px;
+  @include form-text;
+  resize: none;
+}
+
+.form__mail {
+  width: 314px;
+  height: 62px;
+  box-sizing: border-box;
+  padding: 24px 20px 21px 29px;
+  @include form-text;
+}
+
+.form__button {
+  padding: 18px 69px 15px 81px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.25);
+  margin-left: 20px;
+  position: relative;
+  
+  &::before {
+    @include pseudo;
+    background-image: url("../img/sprites.png");
+    background-repeat: no-repeat;
+    background-position: -10px -42px;
+    width: 16px;
+    height: 14px;
+    left: 55px;
+    top: 21px;
+  }
+}
