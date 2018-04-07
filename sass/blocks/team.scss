@@ -1,4 +1,87 @@
+.team {
+  padding: 49px 0 80px;
+  background-color: #f3f3f3;
+}
+
 .team__title::after {
   width: 180px;
   left: 358px;
+}
+
+.team__list {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 0;
+  margin-top: 58px;
+  list-style: none;
+}
+
+.team__item {
+  width: 210px;
+  background-color: #ffffff;
+  text-align: center;
+}
+
+.team__pic {
+  display: block;
+  margin: 17px auto 0;
+}
+
+.team__name {
+  margin: 11px 0 0;
+  font-family: $gotham;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 16px;
+}
+
+.team__position {
+  margin: 14px 0 0;
+  font-family: $georgia;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 12px;
+}
+
+.team__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0 20px;
+  font-size: 0;
+}
+
+.team__social-item {
+  display: block;
+  background-image: url("../img/sprites.png");
+  background-repeat: no-repeat;
+  margin-left: 21px;
+  
+  &--twitter {
+    width: 17px; 
+    height: 12px;
+    background-position: -10px -10px;
+  }
+  
+  &--linkedin {
+    width: 15px; 
+    height: 14px;
+    background-position: -10px -110px;
+  }
+  
+  &--dribbbel {
+    width: 14px; 
+    height: 14px;
+    background-position: -10px -76px;
+  }
+  
+  &--skype {
+    width: 18px; 
+    height: 18px;
+    background-position: -10px -144px;
+  }
+}
+
+.team__social-item:first-child {
+  margin-left: 0;
 }
