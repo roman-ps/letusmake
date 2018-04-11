@@ -4,7 +4,8 @@
 
 .contact__title::after {
   width: 180px;
-  left: 360px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .contact__container {
@@ -15,7 +16,6 @@
 
 .contact__left-side {
   width: 328px;
-  height: 328px;
 }
 
 .contact__right-side {

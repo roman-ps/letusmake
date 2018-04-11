@@ -5,7 +5,8 @@
 
 .team__title::after {
   width: 180px;
-  left: 358px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .team__list {
