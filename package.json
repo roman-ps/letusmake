@@ -1,5 +1,5 @@
 {
-  "name": "letusnake",
+  "name": "letusmake",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/roman-ps/gulp-project.git"
+    "url": "git+https://github.com/roman-ps/letusmake.git"
   },
   "author": "Roman PS",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/roman-ps/gulp-project/issues"
+    "url": ""
   },
-  "homepage": "https://github.com/roman-ps/gulp-project#readme",
+  "homepage": "https://github.com/roman-ps/letusmake#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^3.1.0",
