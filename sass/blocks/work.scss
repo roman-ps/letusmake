@@ -20,3 +20,16 @@
 .work__list-item {
   margin-bottom: 60px;
 }
+
+.work__list-link {
+  display: block;
+  width: 260px;
+  height: 170px;
+  transition: 0.9s;
+
+  &:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 5px 2px #000000;
+    transition: 0.9s;
+  }
+}
