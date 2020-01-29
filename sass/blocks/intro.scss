@@ -37,6 +37,12 @@
   font-size: 0;
   border: 24px solid #e6e9e8;
   
+  &:hover {
+    box-shadow: 0 0 7px 0 rgba(0, 0, 0, 0.45);
+    border: 24px solid rgba(0, 0, 0, 0.15);
+    
+  }
+  
   &::after {
     @include pseudo;
     width: 7px;
